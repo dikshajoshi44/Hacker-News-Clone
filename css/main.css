@@ -1,10 +1,10 @@
-a.ui.teal.header:link {
-    color: teal;
+a.ui.header:link {
+    color: #4E6E79;
 }
 
 /* visited link */
-a.ui.teal.header:visited {
-    color: green;
+a.ui.header:visited {
+    color: #7e57c2;
 }
 
 /* mouse over link */
@@ -13,6 +13,48 @@ a.ui.teal.header:visited {
 }*/
 
 /* selected link */
-a.ui.teal.header:active {
+a.ui.header:active {
     color: yellow;
+
 } 
+
+.ui.circular.label{
+    margin-left: 50px;
+}
+
+.ui.header.content{
+    margin-left: 20px;
+    margin-bottom: 1rem;
+    display:inline;
+
+}
+.ui.header.content:hover{
+	text-decoration: underline;
+	}
+
+.ui.link a.item:hover{
+	text-decoration: underline;
+
+}
+
+.ui.link a.item{
+	color:#FF90AD;
+	margin-right: 1rem;
+}
+#mainfile{
+	margin-bottom: 0.3rem;
+	margin-top: 0;
+	padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: #F9FFFF;
+;
+}
+.ui.link{
+	float:right;
+}
+#comm{
+	margin-right:1rem;
+}
+
+
+
