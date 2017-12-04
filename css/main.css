@@ -1,10 +1,10 @@
 a.ui.header:link {
-    color: #4E6E79;
+    color: #283438;
 }
 
 /* visited link */
 a.ui.header:visited {
-    color: #7e57c2;
+    color: #759ba9;
 }
 
 /* mouse over link */
@@ -26,6 +26,8 @@ a.ui.header:active {
     margin-left: 20px;
     margin-bottom: 1rem;
     display:inline;
+    font-size: 1.2rem;
+    font-weight: 300;
 
 }
 .ui.header.content:hover{
@@ -38,14 +40,14 @@ a.ui.header:active {
 }
 
 .ui.link a.item{
-	color:#FF90AD;
+	color:#4E6E79;
 	margin-right: 1rem;
 }
 #mainfile{
 	margin-bottom: 0.3rem;
 	margin-top: 0;
 	padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: 0.2rem;
     background-color: #F9FFFF;
 ;
 }
@@ -54,6 +56,9 @@ a.ui.header:active {
 }
 #comm{
 	margin-right:1rem;
+}
+.ui.tiny{
+	padding-left: 1rem;
 }
 
 

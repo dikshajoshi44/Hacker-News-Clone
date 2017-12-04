@@ -13,7 +13,7 @@ $.getJSON( "http://localhost:8000/data/test.json", function( data ) {
 	    			'<i class="right triangle icon"></i>' + (index + 1) +
 	    		'</span>' +
 	  			'<span><a href="' + value['url'] + ' " class="ui header content " >' + value['title'] + '</a></span>' +
-	  			'<br>' +
+	  			'<br><br>' +
 	  			'<div class="ui circular label">' + value['score'] + '</div>' +
 	  			'<span class="ui tiny ">' + value['by'] + '</span>' +
 				'<span class="ui link ">' +
