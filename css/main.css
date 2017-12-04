@@ -1,0 +1,18 @@
+a.ui.teal.header:link {
+    color: teal;
+}
+
+/* visited link */
+a.ui.teal.header:visited {
+    color: green;
+}
+
+/* mouse over link */
+/*a.ui.teal.header:hover {*/
+ /* color: blue !important
+}*/
+
+/* selected link */
+a.ui.teal.header:active {
+    color: yellow;
+} 
