@@ -1,8 +1,4 @@
 
-// for(i=0;i<10;i++){
-// 	var a = "<div class='row'>hello world</div>";
-// 	$('#hackernews_content').append(a);
-// }
 
 $.getJSON( "http://localhost:8000/data/test.json", function( data ) {
 	console.log(data);
@@ -24,6 +20,6 @@ $.getJSON( "http://localhost:8000/data/test.json", function( data ) {
   		$('#hackernews_content').append(b);
 		
 	});
- // $('#hackernews_content').append(data[0]['title']);
+ 
 });
 
