@@ -1,6 +1,4 @@
-
-
-$.getJSON( "http://localhost:8000/data/test.json", function( data ) {    //reading the data from json file
+function loaddata (data) {    //reading the data from json file
 	console.log(data);    //showing the data on console
 	$.each(data, function( index, value ) {    // reading the data from json file one by one , vaule refers to 1 object of json file present in data
 		console.log(value);    // showing data of one object on console
@@ -24,4 +22,4 @@ $.getJSON( "http://localhost:8000/data/test.json", function( data ) {    //readi
 		
 	});
  
-});
+};
