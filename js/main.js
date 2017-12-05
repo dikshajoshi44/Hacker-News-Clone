@@ -14,9 +14,9 @@ $.getJSON( "http://localhost:8000/data/test.json", function( data ) {    //readi
 	  			'<br><br>' +
 	  			'<div class="ui circular label">' + value['score'] + '</div>' +
 	  			'<span class="ui tiny ">' + value['by'] + '</span>' +
-	  			'<span id = "dj">' + formatted + '</span>' +
+	  			'<span id="dj">' + formatted + '</span>' +
 				'<span class="ui link ">' +
-				  '<b><a class="item">Comments </a> <span id="comm">' + value['descendants'] + '</span></b>' +
+				  '<a href="https://news.ycombinator.com/item?id=' + value['id'] + '<b><a class="item">Comments </a> <span id="comm">'+ value['descendants'] + '</span></b>' +
 				'</span>' +
 	  			'</div><hr>';
 
